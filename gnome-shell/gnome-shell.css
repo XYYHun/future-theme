@@ -110,19 +110,19 @@ StScrollBar StButton#vhandle:active {
 .check-box StBin {
     width: 24px;
     height: 22px;
-    background-image: url("checkbox-off.svg");
+    background-image: url("img/checkbox-off.svg");
 }
 
 .check-box:focus StBin {
-    background-image: url("checkbox-off-focused.svg");
+    background-image: url("img/checkbox-off-focused.svg");
 }
 
 .check-box:checked StBin {
-    background-image: url("checkbox.svg");
+    background-image: url("img/checkbox.svg");
 }
 
 .check-box:focus:checked StBin {
-    background-image: url("checkbox-focused.svg");
+    background-image: url("img/checkbox-focused.svg");
 }
 
 /* PopupMenu */
@@ -259,20 +259,20 @@ StScrollBar StButton#vhandle:active {
 }
 
 .toggle-switch-us {
-    background-image: url("toggle-off-us.svg");
+    background-image: url("img/toggle-off-us.svg");
     background-size: contain;
 }
 .toggle-switch-us:checked {
-    background-image: url("toggle-on-us.svg");
+    background-image: url("img/toggle-on-us.svg");
     background-size: contain;
 }
 
 .toggle-switch-intl {
-    background-image: url("toggle-off-intl.svg");
+    background-image: url("img/toggle-off-intl.svg");
     background-size: contain;
 }
 .toggle-switch-intl:checked {
-    background-image: url("toggle-on-intl.svg");
+    background-image: url("img/toggle-on-intl.svg");
     background-size: contain;
 }
 
@@ -487,8 +487,8 @@ StScrollBar StButton#vhandle:active {
 .panel-button:active,
 .panel-button:overview,
 .panel-button:focus {
-    border-image: url("panel-button-border.svg") 6 10 0 2;
-    background-image: url("panel-button-highlight-wide.svg");
+    border-image: url("img/panel-button-border.svg") 6 10 0 2;
+    background-image: url("img/panel-button-highlight-wide.svg");
     color: white;
     text-shadow: black 0px 2px 2px;
 }
@@ -496,7 +496,7 @@ StScrollBar StButton#vhandle:active {
 .panel-status-button:active,
 .panel-status-button:checked,
 .panel-status-button:focus {
-    background-image: url("panel-button-highlight-narrow.svg");
+    background-image: url("img/panel-button-highlight-narrow.svg");
 }
 
 .panel-button:active > .system-status-icon,
@@ -613,7 +613,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .window-close, .notification-close {
-    background-image: url("close-window.svg");
+    background-image: url("img/close-window.svg");
     background-size: 32px;
     height: 32px;
     width: 32px;
@@ -659,7 +659,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .placeholder {
-    background-image: url("dash-placeholder.svg");
+    background-image: url("img/dash-placeholder.svg");
     background-size: contain;
     height: 24px;
 }
@@ -783,12 +783,12 @@ StScrollBar StButton#vhandle:active {
 
 .app-filter:selected {
     color: #ffffff;
-    background-image: url("filter-selected-ltr.svg");
+    background-image: url("img/filter-selected-ltr.svg");
     background-position: 190px 10px;
 }
 
 .app-filter:selected:rtl {
-    background-image: url("filter-selected-rtl.svg");
+    background-image: url("img/filter-selected-rtl.svg");
     background-position: 10px 10px;
 }
 
@@ -812,7 +812,7 @@ StScrollBar StButton#vhandle:active {
 
 .app-well-app.running > .overview-icon {
     text-shadow: black 0px 2px 2px;
-    background-image: url("running-indicator.svg");
+    background-image: url("img/running-indicator.svg");
     background-size: contain;
 }
 
@@ -895,8 +895,8 @@ StScrollBar StButton#vhandle:active {
 }
 
 #LookingGlassDialog .notebook-tab:selected {
-    border-image: url("panel-button-border.svg") 10 10 0 2;
-    background-image: url("panel-button-highlight-wide.svg");
+    border-image: url("img/panel-button-border.svg") 10 10 0 2;
+    background-image: url("img/panel-button-highlight-wide.svg");
     color: white;
     text-shadow: black 0px 2px 2px;
 }
@@ -1011,12 +1011,12 @@ StScrollBar StButton#vhandle:active {
 .calendar-change-month-back {
     width: 18px;
     height: 12px;
-    background-image: url("calendar-arrow-left.svg");
+    background-image: url("img/calendar-arrow-left.svg");
     border-radius: 4px;
 }
 
 .calendar-change-month-back:rtl {
-    background-image: url("calendar-arrow-right.svg");
+    background-image: url("img/calendar-arrow-right.svg");
 }
 
 .calendar-change-month-back:hover {
@@ -1029,12 +1029,12 @@ StScrollBar StButton#vhandle:active {
 .calendar-change-month-forward {
     width: 18px;
     height: 12px;
-    background-image: url("calendar-arrow-right.svg");
+    background-image: url("img/calendar-arrow-right.svg");
     border-radius: 4px;
 }
 
 .calendar-change-month-forward:rtl {
-    background-image: url("calendar-arrow-left.svg");
+    background-image: url("img/calendar-arrow-left.svg");
 }
 
 .calendar-change-month-forward:hover {
@@ -1103,7 +1103,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .calendar-today {
-    background-image: url("calendar-today.svg");
+    background-image: url("img/calendar-today.svg");
     text-shadow: black 0px 2px 2px;
     font-weight: bold;
 }
@@ -1185,7 +1185,7 @@ StScrollBar StButton#vhandle:active {
 
 /* Message Tray */
 #message-tray {
-    background: #2e3436 url(message-tray-background.png);
+    background: #2e3436 url(img/message-tray-background.png);
     background-repeat: repeat;
     transition-duration: 250;
 }
@@ -1450,7 +1450,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .summary-source-counter {
-    background-image: url("summary-counter.svg");
+    background-image: url("img/summary-counter.svg");
     background-size: 2.5em;
     font-size: 10pt;
     font-weight: bold;
@@ -1528,12 +1528,12 @@ StScrollBar StButton#vhandle:active {
 .ripple-box {
     width: 52px;
     height: 52px;
-    background-image: url("corner-ripple-ltr.png");
+    background-image: url("img/corner-ripple-ltr.png");
     background-size: contain;
 }
 
 .ripple-box:rtl {
-    background-image: url("corner-ripple-rtl.png");
+    background-image: url("img/corner-ripple-rtl.png");
 }
 
 .switcher-arrow {
@@ -1570,7 +1570,7 @@ StScrollBar StButton#vhandle:active {
     height: 100px;
     border: 0px;
     background: rgba(255,255,255,0.5);
-    background-image: url("ws-switch-arrow-up.png");
+    background-image: url("img/ws-switch-arrow-up.png");
     border-radius: 8px;
 }
 
@@ -1578,7 +1578,7 @@ StScrollBar StButton#vhandle:active {
     height: 100px;
     border: 0px;
     background: rgba(255,255,255,0.5);
-    background-image: url("ws-switch-arrow-down.png");
+    background-image: url("img/ws-switch-arrow-down.png");
     border-radius: 8px;
 }
 
@@ -2071,7 +2071,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
-    background-image: url("logged-in-indicator.svg");
+    background-image: url("img/logged-in-indicator.svg");
     background-size: contain;
 }
 
@@ -2229,7 +2229,7 @@ StScrollBar StButton#vhandle:active {
 }
 
 #lockDialogGroup {
-    background: #2e3436 url(noise-texture.png);
+    background: #2e3436 url(img/noise-texture.png);
     background-repeat: repeat;
 }
 
