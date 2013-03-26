@@ -129,11 +129,13 @@ StScrollBar StButton#vhandle:active {
 
 .popup-menu-boxpointer {
     -arrow-border-radius: 8px;
-    -arrow-background-color: black;
-    -arrow-border-width: 2px;
-    -arrow-border-color: #a5a5a5;
+    -arrow-border-width: 1px;
+    -arrow-border-color: rgba(102,179,255,.2);
+	-arrow-background-color: rgba(4,0,8,.75);
     -arrow-base: 24px;
     -arrow-rise: 11px;
+    color: #66b3ff;
+    font-family: Nova Square;
 }
 
 .popup-menu {
@@ -192,7 +194,10 @@ StScrollBar StButton#vhandle:active {
 }
 
 .popup-menu-item:active {
-    background-color: #4c4c4c;
+    color: white;
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(128,196,255,.5);
+    background-gradient-end: rgba(0,128,255,0);
 }
 
 .popup-menu-item:insensitive {
@@ -409,9 +414,13 @@ StScrollBar StButton#vhandle:active {
 /* Panel */
 
 #panel {
-    background-color: black;
+	height: 1.5em;
+	font-family: Nova Square, sans-serif;
     font-weight: bold;
-    height: 1.86em;
+    text-shadow: black 0px 1px 3px;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0);
+    background-gradient-end: rgba(255,128,255,.3);
 }
 
 #panelLeft, #panelCenter {
@@ -432,19 +441,6 @@ StScrollBar StButton#vhandle:active {
 
 #panelRight:rtl {
     padding-right: 4px;
-}
-
-.panel-corner {
-    -panel-corner-radius: 6px;
-    -panel-corner-background-color: black;
-    -panel-corner-border-width: 2px;
-    -panel-corner-border-color: transparent;
-}
-
-.panel-corner:active,
-.panel-corner:overview,
-.panel-corner:focus {
-    -panel-corner-border-color: rgba(255,255,255,0.8);
 }
 
 #appMenu {
@@ -475,13 +471,13 @@ StScrollBar StButton#vhandle:active {
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
     font-weight: bold;
-    color: #ccc;
+    color: #66b3ff;
     transition-duration: 100;
 }
 
 .panel-button:hover {
-    color: white;
-    text-shadow: black 0px 2px 2px;
+    color: #ccd5ff;
+    text-shadow: black 0px 2px 3px;
 }
 
 .panel-button:active,
