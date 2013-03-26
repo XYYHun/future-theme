@@ -1,4 +1,4 @@
 future-theme
 ============
 
-A clear theme with high transparency
+This branch is used for tracking base changes.
